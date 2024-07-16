@@ -282,47 +282,85 @@
     </section>
 
 
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/2.jpeg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p> currently doing Computer Science B.Sc. Bachelors Degree<br /></p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              One of my favorite quotes is by:
-              <br/><br/>
-              Albert Einstein and it goes: "Education is not the learning of facts, but the training of the mind to think."
-            </p>
-          </div>
-        </div>
-      </div>
+    <section id="Favourites">
+
+      <h1 class="title">Favourites</h1>
+      <div class="wrapper">
+   <div class="card__container">
+     <article class="card__article">
+       <input type="checkbox" id="card1" class="more">
+       <div class="card__content">
+         <div class="card__front">
+           <img src="./assets/81.jpeg" alt="image" class="card__img">
+           <div class="card__data">
+
+             <h2 class="card__title">Sports</h2>
+             <label for="card1" class="card__button">Read More</label>
+           </div>
+         </div>
+         <div class="card__back">
+           <div class="inner">
+
+             <div class="description">
+               <p>I am an avid rugby fan, enjoying both playing and watching the sport. Rugby’s strategic depth and physicality resonate with my competitive spirit.</p>
+             </div>
+             <label for="card1" class="button return" aria-hidden="true">
+               <i class="fas fa-arrow-left"></i>
+             </label>
+           </div>
+         </div>
+       </div>
+     </article>
+
+     <article class="card__article">
+       <input type="checkbox" id="card2" class="more">
+       <div class="card__content">
+         <div class="card__front">
+           <img src="./assets/72.jpeg" alt="image" class="card__img">
+           <div class="card__data">
+             <h2 class="card__title">Food</h2>
+             <label for="card2" class="card__button">Read More</label>
+           </div>
+         </div>
+         <div class="card__back">
+           <div class="inner">
+
+             <div class="description">
+               <p>When it comes to food, I have a particular fondness for Zim soul food, especially homemade sadza with grilled meat and salads.</p>
+             </div>
+             <label for="card2" class="button return" aria-hidden="true">
+               <i class="fas fa-arrow-left"></i>
+             </label>
+           </div>
+         </div>
+       </div>
+     </article>
+
+     <article class="card__article">
+       <input type="checkbox" id="card3" class="more">
+       <div class="card__content">
+         <div class="card__front">
+           <img src="./assets/7.jpeg" alt="image" class="card__img">
+           <div class="card__data">
+             <h2 class="card__title">activities</h2>
+             <label for="card3" class="card__button">Read More</label>
+           </div>
+         </div>
+         <div class="card__back">
+           <div class="inner">
+
+             <div class="description">
+               <p>I cherish sunset walks for their serene beauty and calming effect. The cool evening air refreshes me, and the natural sounds soothe my mind. Whether alone or with a loved one, these walks offer a peaceful escape and a moment to appreciate life’s simple pleasures.</p>
+             </div>
+             <label for="card3" class="button return" aria-hidden="true">
+               <i class="fas fa-arrow-left"></i>
+             </label>
+           </div>
+         </div>
+       </div>
+     </article>
+   </div>
+ </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -330,85 +368,10 @@
         onclick="location.href='./#experience'"
       />
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
 
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
 
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
 
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contac'"
-      />
-    </section>
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -438,6 +401,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#Favourites">Favourites</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
