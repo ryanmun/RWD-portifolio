@@ -36,8 +36,8 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
-
+  height: 17vh;
+   padding: 0 1rem;
 }
 
 .nav-links {
@@ -107,7 +107,7 @@ a:hover {
 
 .menu-links a {
   display: block;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   font-size: 1.5rem;
   color: black;
